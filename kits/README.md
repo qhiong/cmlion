@@ -1,25 +1,25 @@
 
 # 基础套件
-本文件夹下都是melody-cli的基础套件，对应melody-cli的增删改查的功能；
+本文件夹下都是cmlion-cli的基础套件，对应cmlion-cli的增删改查的功能；
 
 ## cli-search
 
 ```shell
-    melody search [package]
+    cmlion search [package]
 ```
 
 ## cli-install
 ```shell
-    melody install <package>
+    cmlion install <package>
 ```
 
 
 ## cli-remove
 ```shell
-    melody remove <package>
+    cmlion remove <package>
 ```
 
 ## cli-update
 ```shell
-    melody update [package]
+    cmlion update [package]
 ```
