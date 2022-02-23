@@ -1,0 +1,56 @@
+{
+  "name": "cmlion",
+  "version": "1.3.5",
+  "description": "命令行集成管理工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cmlion": "./index.js"
+  },
+  "author": "qhong",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qhong/cmlion.git"
+  },
+  "keywords": [
+    "cmlion",
+    "cmlion-core",
+    "cmlion-cli",
+    "cli-manage",
+    "@cmlion-core"
+  ],
+  "contributors": [
+    {
+      "name": "qhong",
+      "email": "2012034189@qq.com",
+      "url": "https://github.com/qhong"
+    },
+    {
+      "name": "coded",
+      "email": "18737662973@163.com",
+      "url": "https://github.com/1278290771"
+    },
+    {
+      "name": "tieniuer",
+      "email": "wxk_tn@163.com",
+      "url": "https://github.com/tieniuer"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^8.0.0",
+    "inquirer": "^8.1.2",
+    "node-fetch": "^2.6.1",
+    "ora": "^5.4.1"
+  },
+  "bugs": {
+    "url": "https://github.com/qhong/cmlion/issues"
+  },
+  "homepage": "https://qhong.github.io/",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  }
+}
